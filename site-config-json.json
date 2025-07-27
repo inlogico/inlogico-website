@@ -1,0 +1,371 @@
+{
+  "site": {
+    "name": "Inlogico Web Agency",
+    "tagline": "Dove l'ingegneria incontra la visione",
+    "url": "https://inlogico.com",
+    "description": "Web Agency a Roma specializzata in siti web, SEO, Google Ads e digital marketing. Esperienza dal 2006. Dove l'ingegneria incontra la visione.",
+    "keywords": "web agency roma, siti web, SEO, Google Ads, digital marketing, sviluppo web",
+    "author": "Inlogico Web Agency",
+    "language": "it-IT",
+    "region": "IT",
+    "foundingDate": "2006",
+    "logo": "https://inlogico.com/assets/images/logo.png",
+    "image": "https://inlogico.com/assets/images/og-image.jpg"
+  },
+  
+  "contact": {
+    "address": {
+      "street": "Via Monte della Vecchia Quercia, 28/B",
+      "city": "Formello (Roma)",
+      "postalCode": "00060",
+      "country": "IT",
+      "coordinates": {
+        "lat": "42.0707",
+        "lng": "12.3678"
+      }
+    },
+    "phone": {
+      "primary": "+39-328-8144105",
+      "display": "328.8144105",
+      "formatted": "328 814 4105"
+    },
+    "email": {
+      "primary": "inlogico@gmail.com",
+      "support": "support@inlogico.com",
+      "sales": "sales@inlogico.com"
+    },
+    "hours": {
+      "weekdays": "9:00 - 18:00",
+      "saturday": "9:00 - 13:00",
+      "sunday": "Chiuso"
+    }
+  },
+  
+  "social": {
+    "facebook": {
+      "url": "https://www.facebook.com/inlogico",
+      "handle": "@inlogico",
+      "icon": "📘"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/inlogico",
+      "handle": "@inlogico",
+      "icon": "💼"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/inlogico",
+      "handle": "@inlogico",
+      "icon": "📷"
+    },
+    "twitter": {
+      "url": "https://twitter.com/inlogico",
+      "handle": "@inlogico",
+      "icon": "🐦"
+    }
+  },
+  
+  "seo": {
+    "pages": {
+      "/": {
+        "title": "Inlogico - Web Agency Roma | Siti Web & Digital Marketing",
+        "description": "Web Agency a Roma specializzata in siti web, SEO, Google Ads e digital marketing. Esperienza dal 2006. Dove l'ingegneria incontra la visione.",
+        "keywords": "web agency roma, agenzia digitale roma, siti web roma, digital marketing",
+        "type": "website",
+        "priority": 1.0,
+        "changeFreq": "weekly"
+      },
+      "/servizi/": {
+        "title": "Servizi Digital Marketing | Web Agency Roma | Inlogico",
+        "description": "Servizi completi di digital marketing: SEO, sviluppo siti web, Google Ads, social media marketing. 17 servizi specializzati per la tua crescita.",
+        "keywords": "servizi digital marketing, web agency servizi, seo google ads sviluppo web",
+        "type": "website",
+        "priority": 0.9,
+        "changeFreq": "monthly"
+      },
+      "/servizi/seo/": {
+        "title": "SEO Roma | Posizionamento Google Professionale | Inlogico",
+        "description": "Servizi SEO a Roma. Posizionamento Google garantito, audit tecnico, ottimizzazione siti web. Consulenza SEO professionale dal 2006.",
+        "keywords": "SEO Roma, posizionamento Google, consulenza SEO, audit SEO",
+        "type": "service",
+        "priority": 0.9,
+        "changeFreq": "monthly"
+      },
+      "/servizi/sviluppo-siti-web/": {
+        "title": "Sviluppo Siti Web Roma | WordPress & Custom | Inlogico",
+        "description": "Sviluppo siti web professionali a Roma. WordPress, siti custom, e-commerce, responsive design. Esperienza dal 2006, performance garantite.",
+        "keywords": "sviluppo siti web Roma, siti web professionali, WordPress Roma, siti responsive",
+        "type": "service",
+        "priority": 0.9,
+        "changeFreq": "monthly"
+      },
+      "/servizi/google-ads/": {
+        "title": "Google Ads Roma | Gestione Campagne Pubblicitarie | Inlogico",
+        "description": "Gestione Google Ads professionale a Roma. Campagne pubblicitarie ROI garantito, certificazioni Google Partner. Genera clienti subito.",
+        "keywords": "Google Ads Roma, gestione Google Ads, campagne PPC, remarketing",
+        "type": "service",
+        "priority": 0.9,
+        "changeFreq": "monthly"
+      },
+      "/servizi/intelligenza-artificiale/": {
+        "title": "Intelligenza Artificiale Business | AI Integration | Inlogico",
+        "description": "Implementazione AI per business. Chatbot intelligenti, automazione processi, machine learning. Trasforma il tuo business con l'AI.",
+        "keywords": "intelligenza artificiale business, chatbot AI, automazione AI, machine learning",
+        "type": "service",
+        "priority": 0.8,
+        "changeFreq": "monthly"
+      },
+      "/servizi/social-media-marketing/": {
+        "title": "Social Media Marketing Roma | Gestione Social | Inlogico",
+        "description": "Social media marketing strategico a Roma. Gestione Facebook, Instagram, TikTok, LinkedIn. Content creation e influencer marketing.",
+        "keywords": "social media marketing Roma, gestione social media, Facebook marketing, Instagram marketing",
+        "type": "service",
+        "priority": 0.8,
+        "changeFreq": "monthly"
+      },
+      "/contatti/": {
+        "title": "Contatti | Web Agency Roma | Inlogico",
+        "description": "Contatta Inlogico Web Agency a Roma. Via Monte della Vecchia Quercia 28/B, Tel: 328.8144105. Preventivo gratuito per siti web, SEO e digital marketing.",
+        "keywords": "contatti web agency roma, preventivo sito web, consulenza digital marketing",
+        "type": "website",
+        "priority": 0.9,
+        "changeFreq": "monthly"
+      },
+      "/chi-siamo/": {
+        "title": "Chi Siamo | Storia Inlogico Web Agency Roma",
+        "description": "La storia di Inlogico dal 2006. Web agency Roma con esperienza internazionale. Dove l'ingegneria incontra la visione.",
+        "keywords": "chi siamo inlogico, web agency roma storia, team digital marketing",
+        "type": "website",
+        "priority": 0.6,
+        "changeFreq": "yearly"
+      }
+    },
+    "defaults": {
+      "title": "Inlogico - Web Agency Roma",
+      "description": "Web Agency specializzata in soluzioni digitali innovative",
+      "image": "https://inlogico.com/assets/images/og-default.jpg",
+      "type": "website",
+      "priority": 0.5,
+      "changeFreq": "monthly"
+    }
+  },
+  
+  "analytics": {
+    "googleAnalytics": "GA_MEASUREMENT_ID",
+    "googleTagManager": "GTM_CONTAINER_ID",
+    "facebookPixel": "FACEBOOK_PIXEL_ID",
+    "enableCookieConsent": true,
+    "enableHotjar": true
+  },
+  
+  "features": {
+    "enablePWA": true,
+    "enableDarkMode": true,
+    "enableAnimations": true,
+    "enableNotifications": true,
+    "enableServiceWorker": false,
+    "enableOfflineMode": false
+  },
+  
+  "performance": {
+    "enableLazyLoading": true,
+    "enableImageOptimization": true,
+    "enableCaching": true,
+    "cacheExpiry": 86400000,
+    "enableCompression": true
+  },
+  
+  "content": {
+    "heroSection": {
+      "title": "Dove l'ingegneria incontra la visione",
+      "subtitle": "Dal 2006, l'agenzia che anticipa il futuro digitale: AI, automazione, strategia globale per risultati misurabili.",
+      "primaryCTA": "Inizia il tuo progetto",
+      "secondaryCTA": "Scopri i servizi",
+      "backgroundImage": "assets/images/hero-primary.webp"
+    },
+    "stats": {
+      "foundingYear": {
+        "value": "2006",
+        "label": "Anno di fondazione"
+      },
+      "projectsCompleted": {
+        "value": "500+",
+        "label": "Progetti completati"
+      },
+      "servicesSpecialized": {
+        "value": "17",
+        "label": "Servizi specializzati"
+      },
+      "keywordsMonitored": {
+        "value": "149K+",
+        "label": "Keyword monitorate"
+      },
+      "clientsSatisfied": {
+        "value": "150+",
+        "label": "Clienti soddisfatti"
+      },
+      "averageROI": {
+        "value": "+340%",
+        "label": "ROI medio clienti"
+      },
+      "countriesServed": {
+        "value": "15+",
+        "label": "Paesi serviti"
+      },
+      "uptimeGuaranteed": {
+        "value": "99.9%",
+        "label": "Uptime garantito"
+      }
+    },
+    "whyChooseUs": [
+      {
+        "icon": "🌍",
+        "title": "Esperienza Internazionale",
+        "description": "Dal 2006 abbiamo lavorato attraverso continenti, mercati e culture diverse. Questa prospettiva globale ci permette di applicare best practice internazionali ai progetti italiani."
+      },
+      {
+        "icon": "🔬",
+        "title": "Approccio Ingegneristico",
+        "description": "Ogni strategia è basata su dati, analisi e metodologie scientifiche. Zero improvvisazione, massima precisione nei risultati."
+      },
+      {
+        "icon": "🚀",
+        "title": "Innovation First",
+        "description": "Implementiamo tecnologie emergenti prima che diventino mainstream: AI, voice search, social commerce, automazione avanzata."
+      },
+      {
+        "icon": "📈",
+        "title": "ROI Misurabili",
+        "description": "Ogni azione ha un obiettivo misurabile. Ti forniamo report dettagliati con KPI chiari e actionable insights."
+      }
+    ]
+  },
+  
+  "certifications": [
+    {
+      "name": "Google Partner Certified",
+      "icon": "🏆",
+      "description": "Certificazione ufficiale Google per la gestione Google Ads"
+    },
+    {
+      "name": "PageSpeed Expert",
+      "icon": "⚡",
+      "description": "Specializzazione in ottimizzazione performance web"
+    },
+    {
+      "name": "GDPR Compliance",
+      "icon": "🔒",
+      "description": "Compliance completa normative privacy europee"
+    }
+  ],
+  
+  "navigation": {
+    "primary": [
+      {
+        "title": "Home",
+        "url": "/",
+        "active": true
+      },
+      {
+        "title": "Servizi",
+        "url": "/servizi/",
+        "hasDropdown": true
+      },
+      {
+        "title": "Chi Siamo",
+        "url": "/chi-siamo/"
+      },
+      {
+        "title": "Blog",
+        "url": "/blog/"
+      },
+      {
+        "title": "Contatti",
+        "url": "/contatti/"
+      }
+    ],
+    "mobile": [
+      "HOME",
+      "SERVIZI", 
+      "SEO",
+      "SVILUPPO WEB",
+      "GOOGLE ADS",
+      "AI",
+      "CHI SIAMO",
+      "BLOG",
+      "CONTATTI"
+    ],
+    "footer": {
+      "company": [
+        { "title": "Chi Siamo", "url": "/chi-siamo/" },
+        { "title": "Portfolio", "url": "/portfolio/" },
+        { "title": "Blog", "url": "/blog/" },
+        { "title": "Lavora con noi", "url": "/lavora-con-noi/" },
+        { "title": "Partnership", "url": "/partnership/" }
+      ],
+      "resources": [
+        { "title": "Guide Gratuite", "url": "/guide/" },
+        { "title": "Tool SEO", "url": "/tools/" },
+        { "title": "FAQ", "url": "/faq/" },
+        { "title": "Preventivo Online", "url": "/preventivo/" },
+        { "title": "Consulenza Gratuita", "url": "/consulenza-gratuita/" }
+      ],
+      "legal": [
+        { "title": "Privacy Policy", "url": "/privacy-policy/" },
+        { "title": "Cookie Policy", "url": "/cookie-policy/" },
+        { "title": "Termini di Servizio", "url": "/termini-servizio/" }
+      ]
+    }
+  },
+  
+  "schema": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Inlogico Web Agency",
+      "description": "Web Agency a Roma specializzata in siti web, SEO e digital marketing",
+      "url": "https://inlogico.com",
+      "logo": "https://inlogico.com/assets/images/logo.png",
+      "foundingDate": "2006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Monte della Vecchia Quercia, 28/B",
+        "addressLocality": "Formello (Roma)",
+        "postalCode": "00060",
+        "addressCountry": "IT"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+39-328-8144105",
+        "contactType": "customer service",
+        "email": "inlogico@gmail.com"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.0707",
+          "longitude": "12.3678"
+        },
+        "geoRadius": "50000"
+      },
+      "serviceType": [
+        "Web Design",
+        "SEO Services",
+        "Digital Marketing",
+        "Google Ads Management",
+        "Social Media Marketing",
+        "AI Integration",
+        "E-commerce Development"
+      ]
+    }
+  },
+  
+  "meta": {
+    "version": "2.0",
+    "lastUpdated": "2025-07-27",
+    "environment": "production",
+    "apiVersion": "v1",
+    "dataFormat": "json",
+    "encoding": "utf-8"
+  }
+}

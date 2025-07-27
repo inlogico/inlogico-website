@@ -1,0 +1,440 @@
+/* ========================================
+   INLOGICO - 04-SECTIONS.CSS
+   Page Sections: Hero, Services, Stats, Features
+======================================== */
+
+/* ========================================
+   HERO SECTION
+======================================== */
+.hero {
+  padding: var(--hero-padding) 0;
+  background: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url('assets/images/hero-primary.webp') center/cover no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  min-height: 80vh;
+  max-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+[data-theme="dark"] .hero {
+  background: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url('assets/images/hero-primary.webp') center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  margin-bottom: var(--space-lg);
+  color: white;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  text-transform: none;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--space-xl);
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: -0.01em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+/* Hero Button Styles */
+.hero .btn {
+  background: white !important;
+  color: var(--primary) !important;
+  border: 2px solid white;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: none;
+}
+
+.hero .btn:hover {
+  background: var(--bg-light) !important;
+  color: var(--primary) !important;
+  border-color: var(--bg-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hero .btn-outline {
+  background: transparent !important;
+  color: white !important;
+  border: 2px solid white;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.hero .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  color: white !important;
+  border-color: white;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Responsive */
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+    min-height: 75vh;
+    padding: var(--space-lg) 0;
+  }
+  
+  .hero-content {
+    min-height: 45vh;
+  }
+  
+  .hero h1 {
+    font-size: clamp(1.8rem, 7vw, 2.5rem);
+    margin-bottom: var(--space-md);
+  }
+  
+  .hero p {
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+    margin-bottom: var(--space-lg);
+  }
+  
+  .hero-cta {
+    gap: var(--space-sm);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    min-height: 78vh;
+  }
+  
+  .hero h1 {
+    font-size: clamp(2.2rem, 4vw, 3rem);
+  }
+  
+  .hero p {
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+  }
+}
+
+@media (min-width: 640px) {
+  .hero-cta {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* ========================================
+   SECTION TITLES
+======================================== */
+.section-title {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.section-title h2 {
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: var(--space-lg);
+  letter-spacing: -0.03em;
+  font-size: var(--text-3xl);
+  text-transform: none;
+}
+
+.section-title p {
+  color: var(--text-light);
+  font-size: var(--text-base);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* ========================================
+   SERVICES SECTION
+======================================== */
+.services {
+  padding: var(--space-2xl) 0;
+  background: var(--bg-light);
+}
+
+.services-category {
+  margin-bottom: var(--space-2xl);
+}
+
+.services-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: var(--space-xl);
+  text-align: center;
+  justify-content: center;
+  letter-spacing: -0.02em;
+}
+
+.category-title svg {
+  width: 26px;
+  height: 26px;
+  stroke: var(--accent);
+  flex-shrink: 0;
+}
+
+.services-cta {
+  text-align: center;
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl);
+  background: var(--bg-card);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.services-cta h3 {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: var(--space-md);
+}
+
+.services-cta p {
+  font-size: var(--text-base);
+  color: var(--text-light);
+  max-width: 550px;
+  margin: 0 auto var(--space-xl);
+  line-height: 1.5;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .cta-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* Services Responsive */
+@media (max-width: 767px) {
+  .services-category {
+    margin-bottom: var(--space-xl);
+  }
+
+  .category-title {
+    font-size: var(--text-lg);
+    flex-direction: column;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-lg);
+  }
+
+  .category-title svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .services-cta {
+    padding: var(--space-lg);
+    margin-top: var(--space-xl);
+  }
+
+  .services-cta h3 {
+    font-size: var(--text-lg);
+  }
+
+  .services-cta p {
+    font-size: var(--text-sm);
+  }
+}
+
+/* ========================================
+   STATS SECTION
+======================================== */
+.stats {
+  padding: var(--space-xl) 0;
+  background: var(--bg-light);
+}
+
+.stat-item {
+  text-align: center;
+  padding: var(--space-sm) 0;
+}
+
+.stat-number {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: var(--primary);
+  display: block;
+  margin-bottom: var(--space-xs);
+  line-height: 1;
+}
+
+.stat-label {
+  color: var(--text-light);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* Stats Responsive */
+@media (max-width: 767px) {
+  .stats {
+    padding: var(--space-lg) 0;
+  }
+  
+  .stat-item {
+    padding: var(--space-xs) 0;
+  }
+  
+  .stat-number {
+    font-size: var(--text-2xl);
+  }
+  
+  .stat-label {
+    font-size: var(--text-xs);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .stat-number {
+    font-size: var(--text-2xl);
+  }
+  
+  .stat-label {
+    font-size: var(--text-xs);
+  }
+}
+
+/* ========================================
+   WHY CHOOSE US SECTION
+======================================== */
+.why-choose-us {
+  padding: var(--space-2xl) 0;
+  background: var(--bg);
+}
+
+/* Why Choose Us Responsive */
+@media (max-width: 767px) {
+  .why-choose-us {
+    padding: var(--space-xl) 0;
+  }
+}
+
+/* ========================================
+   SECTION SPACING UTILITIES
+======================================== */
+section {
+  position: relative;
+}
+
+section + section {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] section + section {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ========================================
+   RESPONSIVE SECTION ADJUSTMENTS
+======================================== */
+@media (max-width: 768px) {
+  .services,
+  .stats,
+  .why-choose-us {
+    padding: var(--space-xl) 0;
+  }
+  
+  .section-title {
+    margin-bottom: var(--space-xl);
+  }
+  
+  .section-title h2 {
+    font-size: var(--text-2xl);
+  }
+  
+  .section-title p {
+    font-size: var(--text-sm);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .services,
+  .why-choose-us {
+    padding: var(--space-2xl) 0;
+  }
+  
+  .stats {
+    padding: var(--space-xl) 0;
+  }
+}
+
+/* ========================================
+   SECTION ANIMATIONS
+======================================== */
+@media (prefers-reduced-motion: no-preference) {
+  .services-category {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideInUp 0.6s ease-out forwards;
+  }
+  
+  .services-category:nth-child(1) { animation-delay: 0.1s; }
+  .services-category:nth-child(2) { animation-delay: 0.2s; }
+  .services-category:nth-child(3) { animation-delay: 0.3s; }
+  .services-category:nth-child(4) { animation-delay: 0.4s; }
+  .services-category:nth-child(5) { animation-delay: 0.5s; }
+}
+
+@keyframes slideInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Remove animations for reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .services-category {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inlogico - Web Agency Roma | Siti Web & Digital Marketing</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Web Agency a Roma specializzata in siti web, SEO, Google Ads e digital marketing. Esperienza dal 2006. Dove l'ingegneria incontra la visione.">
+  <meta name="keywords" content="web agency roma, siti web, SEO, Google Ads, digital marketing, sviluppo web">
+  <meta name="author" content="Inlogico Web Agency">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Inlogico - Web Agency Roma">
+  <meta property="og:description" content="Dove l'ingegneria incontra la visione. Web Agency specializzata in soluzioni digitali innovative.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://inlogico.com">
+  <meta property="og:image" content="https://inlogico.com/og-image.jpg">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://inlogico.com">
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS ESTERNO -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Inlogico Web Agency",
+    "description": "Web Agency a Roma specializzata in siti web, SEO e digital marketing",
+    "url": "https://inlogico.com",
+    "logo": "https://inlogico.com/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Monte della Vecchia Quercia, 28/B",
+      "addressLocality": "Formello (Roma)", 
+      "postalCode": "00060",
+      "addressCountry": "IT"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+39-328-8144105",
+      "contactType": "customer service",
+      "email": "inlogico@gmail.com"
+    },
+    "foundingDate": "2006",
+    "sameAs": [
+      "https://www.facebook.com/inlogico",
+      "https://www.linkedin.com/company/inlogico"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Dark Mode Toggle -->
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </button>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">INLOGICO</a>
+        
+        <nav class="nav">
+          <a href="/" class="nav-link active">Home</a>
+          <div class="nav-dropdown">
+            <a href="/servizi/" class="nav-link">Servizi</a>
+            <div class="dropdown-content">
+              <div class="dropdown-section">
+                <h4>Digital Marketing</h4>
+                <a href="/servizi/seo/">SEO & Posizionamento</a>
+                <a href="/servizi/google-ads/">Google Ads</a>
+                <a href="/servizi/social-media-marketing/">Social Media Marketing</a>
+                <a href="/servizi/facebook-ads/">Facebook Ads</a>
+                <a href="/servizi/email-marketing/">Email Marketing</a>
+              </div>
+              <div class="dropdown-section">
+                <h4>Sviluppo & Design</h4>
+                <a href="/servizi/sviluppo-siti-web/">Sviluppo Siti Web</a>
+                <a href="/servizi/creazione-app/">Creazione App</a>
+                <a href="/servizi/e-commerce/">E-commerce</a>
+                <a href="/servizi/web-design/">Web Design</a>
+              </div>
+              <div class="dropdown-section">
+                <h4>AI & Automazione</h4>
+                <a href="/servizi/intelligenza-artificiale/">Intelligenza Artificiale</a>
+                <a href="/servizi/chatbot/">Chatbot</a>
+                <a href="/servizi/whatsapp-business/">WhatsApp Business</a>
+              </div>
+              <div class="dropdown-section">
+                <h4>Analytics & Consulenza</h4>
+                <a href="/servizi/google-analytics/">Google Analytics</a>
+                <a href="/servizi/consulenza-digitale/">Consulenza Digitale</a>
+                <a href="/servizi/privacy-data-marketing/">Privacy & Data</a>
+              </div>
+            </div>
+          </div>
+          <a href="/chi-siamo/" class="nav-link">Chi Siamo</a>
+          <a href="/blog/" class="nav-link">Blog</a>
+          <a href="/contatti/" class="nav-link">Contatti</a>
+        </nav>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true">
+          <button class="close-btn" id="close-menu" aria-label="Chiudi menu">×</button>
+          <a href="/">HOME</a>
+          <a href="/servizi/">SERVIZI</a>
+          <a href="/servizi/seo/">SEO</a>
+          <a href="/servizi/sviluppo-siti-web/">SVILUPPO WEB</a>
+          <a href="/servizi/google-ads/">GOOGLE ADS</a>
+          <a href="/servizi/intelligenza-artificiale/">AI</a>
+          <a href="/chi-siamo/">CHI SIAMO</a>
+          <a href="/blog/">BLOG</a>
+          <a href="/contatti/">CONTATTI</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Hero Section - VIEWPORT OPTIMIZED -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Dove l'ingegneria incontra la visione</h1>
+          <p>
+            Dal 2006, l'agenzia che anticipa il futuro digitale: AI, automazione, strategia globale per risultati misurabili.
+          </p>
+          <div class="hero-cta">
+            <a href="/contatti/" class="btn btn-large">Inizia il tuo progetto</a>
+            <a href="/servizi/" class="btn btn-outline btn-large">Scopri i servizi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>I nostri servizi completi</h2>
+          <p class="text-muted">Soluzioni digitali end-to-end per dominare il mercato online</p>
+        </div>
+        
+        <!-- SEZIONE 1: CORE DIGITAL MARKETING -->
+        <div class="services-category">
+          <h3 class="category-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            Core Digital Marketing
+          </h3>
+          <div class="grid services-main">
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.35-4.35"></path>
+                </svg>
+              </div>
+              <h3>SEO &<br>Posizionamento</h3>
+              <p>Primi su Google con strategie SEO avanzate, audit tecnico e ottimizzazione completa.</p>
+              <a href="/servizi/seo/" class="service-btn">Primi su Google</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="6"></circle>
+                  <circle cx="12" cy="12" r="2"></circle>
+                </svg>
+              </div>
+              <h3>Google<br>Ads</h3>
+              <p>Campagne pubblicitarie ROI garantito con gestione Google Ads professionale.</p>
+              <a href="/servizi/google-ads/" class="service-btn">Genera clienti</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"></polyline>
+                </svg>
+              </div>
+              <h3>Social Media<br>Marketing</h3>
+              <p>Gestione social completa, content strategy e influencer marketing per engagement massimo.</p>
+              <a href="/servizi/social-media-marketing/" class="service-btn">Conquista i social</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </div>
+              <h3>Facebook &<br>Instagram Ads</h3>
+              <p>Advertising Meta completo, campagne Facebook e Instagram per reach massimo.</p>
+              <a href="/servizi/facebook-ads/" class="service-btn">Amplifica la reach</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEZIONE 2: SVILUPPO & DESIGN -->
+        <div class="services-category">
+          <h3 class="category-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            Sviluppo & Design
+          </h3>
+          <div class="grid services-main">
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3>Sviluppo<br>Siti Web</h3>
+              <p>Siti web professionali, responsive e veloci. WordPress custom e sviluppo su misura.</p>
+              <a href="/servizi/sviluppo-siti-web/" class="service-btn">Crea il tuo sito</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3>Creazione<br>App Mobile</h3>
+              <p>App iOS e Android native, Progressive Web App e sviluppo cross-platform.</p>
+              <a href="/servizi/creazione-app/" class="service-btn">Sviluppa la tua app</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+              </div>
+              <h3>E-commerce<br>Completo</h3>
+              <p>Shop online WooCommerce, Shopify e Magento con integrazione pagamenti.</p>
+              <a href="/servizi/e-commerce/" class="service-btn">Vendi online</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5 12,2"></polygon>
+                  <line x1="12" y1="22" x2="12" y2="15.5"></line>
+                  <polyline points="7,6.5 12,9.5 17,6.5"></polyline>
+                </svg>
+              </div>
+              <h3>Web Design<br>& UI/UX</h3>
+              <p>Design moderno, user experience ottimizzata e brand identity memorabile.</p>
+              <a href="/servizi/web-design/" class="service-btn">Design vincente</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEZIONE 3: AI & AUTOMAZIONE -->
+        <div class="services-category">
+          <h3 class="category-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+              <rect x="9" y="9" width="6" height="6"></rect>
+              <line x1="9" y1="1" x2="9" y2="4"></line>
+              <line x1="15" y1="1" x2="15" y2="4"></line>
+              <line x1="9" y1="20" x2="9" y2="23"></line>
+              <line x1="15" y1="20" x2="15" y2="23"></line>
+              <line x1="20" y1="9" x2="23" y2="9"></line>
+              <line x1="20" y1="14" x2="23" y2="14"></line>
+              <line x1="1" y1="9" x2="4" y2="9"></line>
+              <line x1="1" y1="14" x2="4" y2="14"></line>
+            </svg>
+            Intelligenza Artificiale & Automazione
+          </h3>
+          <div class="grid services-additional">
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <h3>Intelligenza<br>Artificiale</h3>
+              <p>AI integration, machine learning e automazione processi per business competitivi.</p>
+              <a href="/servizi/intelligenza-artificiale/" class="service-btn">Automatizza tutto</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <h3>Chatbot<br>Intelligenti</h3>
+              <p>Chatbot AI personalizzati per customer service automatizzato e lead generation.</p>
+              <a href="/servizi/chatbot/" class="service-btn">Assistenti virtuali</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  <path d="M7 8l5 3 5-3"></path>
+                </svg>
+              </div>
+              <h3>WhatsApp<br>Business</h3>
+              <p>WhatsApp Business API, automazione customer service e marketing conversazionale.</p>
+              <a href="/servizi/whatsapp-business/" class="service-btn">Automatizza WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEZIONE 4: ANALYTICS & CONSULENZA -->
+        <div class="services-category">
+          <h3 class="category-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+            Analytics & Consulenza Strategica
+          </h3>
+          <div class="grid services-additional">
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <h3>Google<br>Analytics</h3>
+              <p>Setup GA4, conversion tracking avanzato e dashboard personalizzate per ROI misurabili.</p>
+              <a href="/servizi/google-analytics/" class="service-btn">Misura tutto</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <h3>Consulenza<br>Digitale</h3>
+              <p>Digital transformation, strategia omnicanale e audit digitale per crescita sostenibile.</p>
+              <a href="/servizi/consulenza-digitale/" class="service-btn">Strategia vincente</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <circle cx="12" cy="16" r="1"></circle>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </div>
+              <h3>Privacy &<br>Data Marketing</h3>
+              <p>Marketing cookieless, GDPR compliance e first-party data strategy per il futuro.</p>
+              <a href="/servizi/privacy-data-marketing/" class="service-btn">Marketing futuro</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEZIONE 5: EMAIL & COMUNICAZIONE -->
+        <div class="services-category">
+          <h3 class="category-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Email Marketing & Comunicazione
+          </h3>
+          <div class="grid services-additional">
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <h3>Email<br>Marketing</h3>
+              <p>Newsletter automatizzate, DEM campaigns e lead nurturing con piattaforme premium.</p>
+              <a href="/servizi/email-marketing/" class="service-btn">Automatizza email</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                </svg>
+              </div>
+              <h3>Social<br>Commerce</h3>
+              <p>Vendita diretta su Instagram, TikTok Shop e Facebook Shop per commerce innovativo.</p>
+              <a href="/servizi/social-commerce/" class="service-btn">Vendi sui social</a>
+            </div>
+            
+            <div class="card service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <h3>Green<br>Marketing</h3>
+              <p>Marketing sostenibile, comunicazione ambientale e brand responsabili per il futuro.</p>
+              <a href="/servizi/green-marketing/" class="service-btn">Marketing sostenibile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-cta">
+          <h3>Pronto per dominare il digitale?</h3>
+          <p>Ogni servizio è progettato per integrarsi perfettamente con gli altri, creando un ecosistema digitale completo che fa crescere il tuo business.</p>
+          <div class="cta-buttons">
+            <a href="/contatti/" class="btn btn-large">Consulenza gratuita</a>
+            <a href="/servizi/" class="btn btn-outline btn-large">Tutti i servizi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section - Enhanced -->
+    <section class="stats">
+      <div class="container">
+        <div class="section-title">
+          <h2>I numeri della nostra esperienza</h2>
+          <p class="text-muted">17 anni di innovazione digitale e risultati misurabili</p>
+        </div>
+        
+        <div class="grid grid-4">
+          <div class="stat-item">
+            <span class="stat-number">2006</span>
+            <span class="stat-label">Anno di fondazione</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Progetti completati</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">17</span>
+            <span class="stat-label">Servizi specializzati</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">149K+</span>
+            <span class="stat-label">Keyword monitorate</span>
+          </div>
+        </div>
+
+        <div class="grid grid-4" style="margin-top: var(--space-xl);">
+          <div class="stat-item">
+            <span class="stat-number">150+</span>
+            <span class="stat-label">Clienti soddisfatti</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">+340%</span>
+            <span class="stat-label">ROI medio clienti</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Paesi serviti</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">99.9%</span>
+            <span class="stat-label">Uptime garantito</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+      <div class="container">
+        <div class="section-title">
+          <h2>Perché scegliere Inlogico</h2>
+          <p class="text-muted">La differenza che fa la differenza nel digitale</p>
+        </div>
+        
+        <div class="grid md:grid-2">
+          <div class="feature-card">
+            <div class="feature-icon">🌍</div>
+            <h3>Esperienza Internazionale</h3>
+            <p>Dal 2006 abbiamo lavorato attraverso continenti, mercati e culture diverse. Questa prospettiva globale ci permette di applicare best practice internazionali ai progetti italiani.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">🔬</div>
+            <h3>Approccio Ingegneristico</h3>
+            <p>Ogni strategia è basata su dati, analisi e metodologie scientifiche. Zero improvvisazione, massima precisione nei risultati.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">🚀</div>
+            <h3>Innovation First</h3>
+            <p>Implementiamo tecnologie emergenti prima che diventino mainstream: AI, voice search, social commerce, automazione avanzata.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">📈</div>
+            <h3>ROI Misurabili</h3>
+            <p>Ogni azione ha un obiettivo misurabile. Ti forniamo report dettagliati con KPI chiari e actionable insights.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="grid md:grid-4">
+        <div>
+          <h3>Inlogico Web Agency</h3>
+          <p>Dove l'ingegneria incontra la visione. Web agency a Roma specializzata in soluzioni digitali innovative dal 2006.</p>
+          <div style="margin-top: var(--space-lg);">
+            <h4>Seguici</h4>
+            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+              <a href="https://www.facebook.com/inlogico" aria-label="Facebook">📘</a>
+              <a href="https://www.linkedin.com/company/inlogico" aria-label="LinkedIn">💼</a>
+              <a href="https://www.instagram.com/inlogico" aria-label="Instagram">📷</a>
+              <a href="https://twitter.com/inlogico" aria-label="Twitter">🐦</a>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Digital Marketing</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <a href="/servizi/seo/">SEO & Posizionamento</a>
+            <a href="/servizi/google-ads/">Google Ads</a>
+            <a href="/servizi/social-media-marketing/">Social Media Marketing</a>
+            <a href="/servizi/facebook-ads/">Facebook Ads</a>
+            <a href="/servizi/email-marketing/">Email Marketing</a>
+            <a href="/servizi/google-analytics/">Google Analytics</a>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Sviluppo & AI</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <a href="/servizi/sviluppo-siti-web/">Sviluppo Siti Web</a>
+            <a href="/servizi/creazione-app/">Creazione App</a>
+            <a href="/servizi/e-commerce/">E-commerce</a>
+            <a href="/servizi/intelligenza-artificiale/">Intelligenza Artificiale</a>
+            <a href="/servizi/chatbot/">Chatbot</a>
+            <a href="/servizi/whatsapp-business/">WhatsApp Business</a>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Contatti</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <span>📍 Via Monte della Vecchia Quercia, 28/B<br>Formello (Roma), 00060</span>
+            <a href="tel:+39328814105">📞 328.8144105</a>
+            <a href="mailto:inlogico@gmail.com">✉️ inlogico@gmail.com</a>
+            <a href="/contatti/">💬 Richiedi consulenza</a>
+          </div>
+          
+          <div style="margin-top: var(--space-lg);">
+            <h4>Certificazioni</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.25rem; font-size: var(--text-sm); opacity: 0.8;">
+              <span>🏆 Google Partner Certified</span>
+              <span>⚡ PageSpeed Expert</span>
+              <span>🔒 GDPR Compliance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer Links Section -->
+      <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); margin-top: var(--space-xl); padding-top: var(--space-lg);">
+        <div class="grid md:grid-3" style="gap: var(--space-lg);">
+          <div>
+            <h4>Azienda</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: var(--space-sm);">
+              <a href="/chi-siamo/">Chi Siamo</a>
+              <a href="/portfolio/">Portfolio</a>
+              <a href="/blog/">Blog</a>
+              <a href="/lavora-con-noi/">Lavora con noi</a>
+              <a href="/partnership/">Partnership</a>
+            </div>
+          </div>
+          
+          <div>
+            <h4>Servizi Innovativi</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: var(--space-sm);">
+              <a href="/servizi/consulenza-digitale/">Consulenza Digitale</a>
+              <a href="/servizi/web-design/">Web Design</a>
+              <a href="/servizi/social-commerce/">Social Commerce</a>
+              <a href="/servizi/privacy-data-marketing/">Privacy Marketing</a>
+              <a href="/servizi/green-marketing/">Green Marketing</a>
+            </div>
+          </div>
+          
+          <div>
+            <h4>Risorse</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: var(--space-sm);">
+              <a href="/guide/">Guide Gratuite</a>
+              <a href="/tools/">Tool SEO</a>
+              <a href="/faq/">FAQ</a>
+              <a href="/preventivo/">Preventivo Online</a>
+              <a href="/consulenza-gratuita/">Consulenza Gratuita</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div style="display: flex; flex-direction: column; gap: var(--space-sm); align-items: center;">
+          <p>&copy; 2025 Inlogico Web Agency. Tutti i diritti riservati.</p>
+          <div style="display: flex; gap: var(--space-lg); font-size: var(--text-sm);">
+            <a href="/privacy-policy/">Privacy Policy</a>
+            <a href="/cookie-policy/">Cookie Policy</a>
+            <a href="/termini-servizio/">Termini di Servizio</a>
+          </div>
+          <p style="font-size: var(--text-xs); opacity: 0.6;">P.IVA: IT12345678901 | Sviluppato con tecnologie all'avanguardia</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT ESTERNO -->
+  <script src="scripts.js"></script>
+</body>
+</html>
