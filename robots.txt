@@ -1,0 +1,140 @@
+# Robots.txt per Inlogico Web Agency
+# Generato il: 2025-07-26
+# Versione: 1.0
+
+# Permettiamo l'accesso a tutti i bot dei motori di ricerca
+User-agent: *
+Allow: /
+
+# Blocchiamo cartelle sensibili e file di sviluppo
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /tmp/
+
+# Blocchiamo file specifici
+Disallow: *.sql$
+Disallow: *.log$
+Disallow: *.bak$
+Disallow: /error/
+Disallow: /404/
+Disallow: /search
+Disallow: *?
+Disallow: *&
+
+# Blocchiamo duplicati di pagine dinamiche
+Disallow: /tag/
+Disallow: /author/
+Disallow: /archive/
+Disallow: /page/
+Disallow: /*?*
+Disallow: /*&*
+
+# Consentiamo espressamente le pagine importanti
+Allow: /servizi/
+Allow: /blog/
+Allow: /contatti/
+Allow: /portfolio/
+Allow: /chi-siamo/
+
+# Consentiamo CSS, JS e immagini per tutti i bot
+Allow: *.css$
+Allow: *.js$
+Allow: *.png$
+Allow: *.jpg$
+Allow: *.jpeg$
+Allow: *.gif$
+Allow: *.svg$
+Allow: *.webp$
+Allow: *.ico$
+Allow: *.pdf$
+
+# Bot specifici - Configurazioni avanzate
+
+# Googlebot - Massima libertà
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bingbot - Microsoft
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Yandex - Mercato russo
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 3
+
+# Facebook Bot - Social sharing
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter Bot - Social sharing
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn Bot - Professional sharing
+User-agent: LinkedInBot
+Allow: /
+
+# WhatsApp Bot - Messaging preview
+User-agent: WhatsApp
+Allow: /
+
+# Telegram Bot - Messaging preview
+User-agent: TelegramBot
+Allow: /
+
+# Schema.org testing tool
+User-agent: Google-StructuredDataTestingTool
+Allow: /
+
+# Blocchiamo bot dannosi noti
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+# Bot di scraping - accesso limitato
+User-agent: ia_archiver
+Crawl-delay: 86400
+
+User-agent: Wayback
+Crawl-delay: 86400
+
+# Posizione della Sitemap XML
+Sitemap: https://inlogico.com/sitemap.xml
+
+# Host preferito (canonical domain)
+Host: inlogico.com
+
+# Tempo di crawl delay predefinito (in secondi)
+# Valore conservativo per non sovraccaricare il server
+Crawl-delay: 1
+
+# Note aggiuntive:
+# - Questo robots.txt è ottimizzato per massimizzare la visibilità SEO
+# - Consente l'accesso a tutti i contenuti pubblici importanti
+# - Protegge file sensibili e cartelle di sistema
+# - Include configurazioni specifiche per i principali search engine
+# - Blocca bot di scraping aggressivi per preservare le risorse server
+# - La sitemap viene aggiornata automaticamente

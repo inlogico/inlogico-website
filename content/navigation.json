@@ -1,0 +1,257 @@
+{
+  "main": [
+    {
+      "title": "Home",
+      "url": "/",
+      "active": true
+    },
+    {
+      "title": "Servizi",
+      "url": "/servizi/",
+      "dropdown": {
+        "sections": [
+          {
+            "title": "Digital Marketing",
+            "services": [
+              {
+                "title": "SEO & Posizionamento",
+                "url": "/servizi/seo/",
+                "volume": 9900,
+                "description": "Primi su Google con strategie SEO avanzate"
+              },
+              {
+                "title": "Google Ads",
+                "url": "/servizi/google-ads/",
+                "volume": 6600,
+                "description": "Campagne pubblicitarie ROI garantito"
+              },
+              {
+                "title": "Social Media Marketing",
+                "url": "/servizi/social-media-marketing/",
+                "volume": 4400,
+                "description": "Presenza social strategica e coinvolgente"
+              },
+              {
+                "title": "Facebook Ads",
+                "url": "/servizi/facebook-ads/",
+                "volume": 3600,
+                "description": "Advertising Meta completo e ottimizzato"
+              },
+              {
+                "title": "Email Marketing",
+                "url": "/servizi/email-marketing/",
+                "volume": 2900,
+                "description": "Newsletter e automazione email"
+              }
+            ]
+          },
+          {
+            "title": "Sviluppo & Design",
+            "services": [
+              {
+                "title": "Sviluppo Siti Web",
+                "url": "/servizi/sviluppo-siti-web/",
+                "volume": 8100,
+                "description": "Siti web professionali e performanti"
+              },
+              {
+                "title": "Creazione App",
+                "url": "/servizi/creazione-app/",
+                "volume": 1900,
+                "description": "App mobile native e Progressive Web App"
+              },
+              {
+                "title": "E-commerce",
+                "url": "/servizi/e-commerce/",
+                "volume": 4400,
+                "description": "Shop online completi e ottimizzati"
+              },
+              {
+                "title": "Web Design",
+                "url": "/servizi/web-design/",
+                "volume": 3600,
+                "description": "Design moderno e user experience"
+              }
+            ]
+          },
+          {
+            "title": "AI & Automazione",
+            "services": [
+              {
+                "title": "Intelligenza Artificiale",
+                "url": "/servizi/intelligenza-artificiale/",
+                "volume": 4100,
+                "description": "AI integration per business competitivi"
+              },
+              {
+                "title": "Chatbot",
+                "url": "/servizi/chatbot/",
+                "volume": 3600,
+                "description": "Assistenti virtuali intelligenti"
+              },
+              {
+                "title": "WhatsApp Business",
+                "url": "/servizi/whatsapp-business/",
+                "volume": 2700,
+                "description": "Automazione customer service"
+              }
+            ]
+          },
+          {
+            "title": "Analytics & Consulenza",
+            "services": [
+              {
+                "title": "Google Analytics",
+                "url": "/servizi/google-analytics/",
+                "volume": 2200,
+                "description": "Tracking e analisi performance"
+              },
+              {
+                "title": "Consulenza Digitale",
+                "url": "/servizi/consulenza-digitale/",
+                "volume": 2400,
+                "description": "Digital transformation strategy"
+              },
+              {
+                "title": "Privacy & Data Marketing",
+                "url": "/servizi/privacy-data-marketing/",
+                "volume": 900,
+                "description": "Marketing cookieless e GDPR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Chi Siamo",
+      "url": "/chi-siamo/"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "title": "Contatti",
+      "url": "/contatti/"
+    }
+  ],
+  "mobile": [
+    {
+      "title": "HOME",
+      "url": "/"
+    },
+    {
+      "title": "SERVIZI",
+      "url": "/servizi/"
+    },
+    {
+      "title": "SEO",
+      "url": "/servizi/seo/"
+    },
+    {
+      "title": "SVILUPPO WEB",
+      "url": "/servizi/sviluppo-siti-web/"
+    },
+    {
+      "title": "GOOGLE ADS",
+      "url": "/servizi/google-ads/"
+    },
+    {
+      "title": "AI",
+      "url": "/servizi/intelligenza-artificiale/"
+    },
+    {
+      "title": "CHI SIAMO",
+      "url": "/chi-siamo/"
+    },
+    {
+      "title": "BLOG",
+      "url": "/blog/"
+    },
+    {
+      "title": "CONTATTI",
+      "url": "/contatti/"
+    }
+  ],
+  "footer": {
+    "company": {
+      "name": "Inlogico Web Agency",
+      "description": "Dove l'ingegneria incontra la visione. Web agency a Roma specializzata in soluzioni digitali innovative dal 2006.",
+      "address": "Via Monte della Vecchia Quercia, 28/B",
+      "city": "Formello (Roma), 00060",
+      "phone": "+39328814105",
+      "email": "inlogico@gmail.com",
+      "social": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/inlogico",
+          "icon": "📘"
+        },
+        {
+          "platform": "LinkedIn", 
+          "url": "https://www.linkedin.com/company/inlogico",
+          "icon": "💼"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/inlogico",
+          "icon": "📷"
+        },
+        {
+          "platform": "Twitter",
+          "url": "https://twitter.com/inlogico",
+          "icon": "🐦"
+        }
+      ]
+    },
+    "services": {
+      "digital_marketing": [
+        "SEO & Posizionamento",
+        "Google Ads",
+        "Social Media Marketing",
+        "Facebook Ads",
+        "Email Marketing",
+        "Google Analytics"
+      ],
+      "development": [
+        "Sviluppo Siti Web",
+        "Creazione App",
+        "E-commerce",
+        "Intelligenza Artificiale",
+        "Chatbot",
+        "WhatsApp Business"
+      ],
+      "innovative": [
+        "Consulenza Digitale",
+        "Web Design",
+        "Social Commerce",
+        "Privacy Marketing",
+        "Green Marketing"
+      ]
+    },
+    "resources": [
+      "Guide Gratuite",
+      "Tool SEO",
+      "FAQ",
+      "Preventivo Online",
+      "Consulenza Gratuita"
+    ],
+    "legal": [
+      "Privacy Policy",
+      "Cookie Policy",
+      "Termini di Servizio"
+    ]
+  },
+  "stats": {
+    "foundation_year": 2006,
+    "projects_completed": "500+",
+    "clients_satisfied": "150+",
+    "experience_years": 17,
+    "keywords_monitored": "149K+",
+    "services_specialized": 17,
+    "countries_served": "15+",
+    "uptime_guaranteed": "99.9%",
+    "average_roi": "+340%"
+  }
+}

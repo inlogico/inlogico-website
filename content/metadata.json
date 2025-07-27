@@ -1,0 +1,192 @@
+{
+  "site": {
+    "name": "Inlogico Web Agency",
+    "url": "https://inlogico.com",
+    "description": "Web Agency a Roma specializzata in siti web, SEO, Google Ads e digital marketing. Esperienza dal 2006. Dove l'ingegneria incontra la visione.",
+    "keywords": "web agency roma, siti web, SEO, google ads, digital marketing, sviluppo web",
+    "author": "Inlogico Web Agency",
+    "language": "it-IT",
+    "region": "IT",
+    "foundingDate": "2006",
+    "logo": "https://inlogico.com/assets/images/logo.png",
+    "image": "https://inlogico.com/assets/images/og-image.jpg"
+  },
+  "contact": {
+    "address": {
+      "street": "Via Monte della Vecchia Quercia, 28/B",
+      "city": "Formello (Roma)",
+      "postalCode": "00060",
+      "country": "IT"
+    },
+    "phone": "+39-06-45436302",
+    "email": "inlogico@gmail.com"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/inlogico",
+    "linkedin": "https://www.linkedin.com/company/inlogico",
+    "twitter": "https://twitter.com/inlogico",
+    "instagram": "https://www.instagram.com/inlogico"
+  },
+  "pages": {
+    "/": {
+      "title": "Inlogico - Web Agency Roma | Siti Web & Digital Marketing",
+      "description": "Web Agency a Roma specializzata in siti web, SEO, Google Ads e digital marketing. Esperienza dal 2006. Dove l'ingegneria incontra la visione.",
+      "keywords": "web agency roma, agenzia digitale roma, siti web roma, digital marketing",
+      "type": "website",
+      "priority": 1.0,
+      "changeFreq": "weekly"
+    },
+    "/servizi/": {
+      "title": "Servizi Digital Marketing | Web Agency Roma | Inlogico",
+      "description": "Servizi completi di digital marketing: SEO, sviluppo siti web, Google Ads, social media marketing. Web agency Roma con esperienza dal 2006.",
+      "keywords": "servizi digital marketing, web agency servizi, seo google ads sviluppo web",
+      "type": "website",
+      "priority": 0.9,
+      "changeFreq": "monthly"
+    },
+    "/servizi/seo/": {
+      "title": "SEO Roma | Posizionamento Google Professionale | Inlogico",
+      "description": "Servizi SEO a Roma. Posizionamento Google garantito, audit tecnico, ottimizzazione siti web. Consulenza SEO professionale dal 2006.",
+      "keywords": "SEO Roma, posizionamento Google, consulenza SEO, audit SEO",
+      "type": "service",
+      "priority": 0.9,
+      "changeFreq": "monthly",
+      "volume": 9900
+    },
+    "/servizi/sviluppo-siti-web/": {
+      "title": "Sviluppo Siti Web Roma | Siti Responsive e WordPress | Inlogico",
+      "description": "Sviluppo siti web professionali a Roma. Siti responsive, WordPress, e-commerce. Web agency specializzata in sviluppo web dal 2006.",
+      "keywords": "sviluppo siti web Roma, siti web professionali, WordPress Roma, siti responsive",
+      "type": "service",
+      "priority": 0.9,
+      "changeFreq": "monthly",
+      "volume": 8100
+    },
+    "/servizi/google-ads/": {
+      "title": "Google Ads Roma | Gestione Campagne PPC | Inlogico",
+      "description": "Gestione campagne Google Ads a Roma. PPC ottimizzato, remarketing, Google Shopping. ROI garantito e lead generation efficace.",
+      "keywords": "Google Ads Roma, gestione Google Ads, campagne PPC, remarketing",
+      "type": "service",
+      "priority": 0.9,
+      "changeFreq": "monthly",
+      "volume": 6600
+    },
+    "/servizi/intelligenza-artificiale/": {
+      "title": "Intelligenza Artificiale | AI Business Solutions | Inlogico",
+      "description": "Servizi di intelligenza artificiale per business. Chatbot AI, automazione processi, machine learning. AI integration professionale.",
+      "keywords": "intelligenza artificiale business, chatbot AI, automazione AI, machine learning",
+      "type": "service",
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "volume": 4100
+    },
+    "/servizi/social-media-marketing/": {
+      "title": "Social Media Marketing Roma | Gestione Social | Inlogico",
+      "description": "Social media marketing professionale a Roma. Gestione Facebook, Instagram, LinkedIn. Content strategy e influencer marketing.",
+      "keywords": "social media marketing Roma, gestione social media, Facebook marketing, Instagram marketing",
+      "type": "service",
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "volume": 4400
+    },
+    "/servizi/whatsapp-business/": {
+      "title": "WhatsApp Business API | Marketing WhatsApp | Inlogico",
+      "description": "Servizi WhatsApp Business API. Automazione customer service, marketing conversazionale, integrazione CRM WhatsApp.",
+      "keywords": "WhatsApp Business API, marketing WhatsApp, automazione WhatsApp, customer service",
+      "type": "service",
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "volume": 2700
+    },
+    "/chi-siamo/": {
+      "title": "Chi Siamo | Web Agency Roma dal 2006 | Inlogico",
+      "description": "Conosciamo Inlogico Web Agency. La nostra storia, filosofia e team. Esperienza internazionale nel digital marketing dal 2006.",
+      "keywords": "chi siamo inlogico, web agency roma storia, team digital marketing",
+      "type": "website",
+      "priority": 0.6,
+      "changeFreq": "yearly"
+    },
+    "/portfolio/": {
+      "title": "Portfolio | Progetti Web Agency Roma | Inlogico",
+      "description": "Portfolio progetti Inlogico Web Agency. Case studies, siti web realizzati, risultati SEO e campagne digital marketing.",
+      "keywords": "portfolio web agency, progetti siti web, case studies SEO",
+      "type": "website",
+      "priority": 0.7,
+      "changeFreq": "monthly"
+    },
+    "/blog/": {
+      "title": "Blog Digital Marketing | Guide SEO e Web | Inlogico",
+      "description": "Blog Inlogico: guide digital marketing, tutorial SEO, news web marketing. Risorse gratuite per professionisti digitali.",
+      "keywords": "blog digital marketing, guide SEO, tutorial web marketing, news digitali",
+      "type": "blog",
+      "priority": 0.8,
+      "changeFreq": "weekly"
+    },
+    "/contatti/": {
+      "title": "Contatti | Web Agency Roma | Preventivo Gratuito | Inlogico",
+      "description": "Contatta Inlogico Web Agency Roma. Via San Godenzo 72, Tel: 06.45436302. Preventivo gratuito per siti web, SEO e digital marketing.",
+      "keywords": "contatti web agency roma, preventivo sito web, consulenza digital marketing",
+      "type": "website",
+      "priority": 0.9,
+      "changeFreq": "monthly"
+    }
+  },
+  "defaults": {
+    "title": "Inlogico - Web Agency Roma",
+    "description": "Web Agency specializzata in soluzioni digitali innovative",
+    "image": "https://inlogico.com/assets/images/og-default.jpg",
+    "type": "website",
+    "priority": 0.5,
+    "changeFreq": "monthly"
+  },
+  "schema": {
+    "organization": {
+      "@type": "Organization",
+      "name": "Inlogico Web Agency",
+      "description": "Web Agency a Roma specializzata in siti web, SEO e digital marketing",
+      "url": "https://inlogico.com",
+      "logo": "https://inlogico.com/assets/images/logo.png",
+      "foundingDate": "2006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via San Godenzo, 72",
+        "addressLocality": "Roma",
+        "postalCode": "00000",
+        "addressCountry": "IT"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+39-06-45436302",
+        "contactType": "customer service",
+        "email": "inlogico@gmail.com"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.9028",
+          "longitude": "12.4964"
+        },
+        "geoRadius": "50000"
+      },
+      "serviceType": [
+        "Web Design",
+        "SEO Services", 
+        "Digital Marketing",
+        "Google Ads Management",
+        "Social Media Marketing"
+      ]
+    }
+  },
+  "analytics": {
+    "googleAnalytics": "GA_MEASUREMENT_ID",
+    "googleTagManager": "GTM_CONTAINER_ID",
+    "facebookPixel": "FACEBOOK_PIXEL_ID"
+  },
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2025-07-26",
+    "totalPages": 12,
+    "targetVolume": 75800
+  }
+}
